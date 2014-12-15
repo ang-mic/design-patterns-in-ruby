@@ -22,7 +22,7 @@ of this process first:
 4. Output any trailing stuff required by the format
 
 With this sequence on mind a good design choice could be based on abstraction.
-By defining an abstract base class that encapsulates a master method which
+By defining an abstract base class to encapsulates a master method which
 performs the basic steps listed above and leaves the details of each step for the
 concrete classes. This method is called **Template Method**
 
