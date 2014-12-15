@@ -6,6 +6,7 @@ class  Report
     @title = 'Monthly Report'
     @text = ['Things are going', 'really, really well']
   end
+  
   #Template Method
   def output_report
     output_start
