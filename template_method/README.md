@@ -1,5 +1,4 @@
 # Template Method Pattern
----
 
 ## Use
 
