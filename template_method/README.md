@@ -7,7 +7,6 @@ complex piece of code - an algorithm or hairy system code - and somewhere in the
 middle of this code there is a bit that needs to vary, sometimes this piece of
 code does one thing and sometimes it does another.
 
-
 ### Scenario
 
 Assuming a system that generates monthly reports in various formats, for example
@@ -30,12 +29,11 @@ concrete classes. This method is called **Template Method**
 *Note:* In Ruby there are no abstract classes or methods. To simulate abstraction
 raise an exception as body of a method:
 
-    ```ruby
-    def output_line
-      raise 'Called abstract method: output_line'
-    end
-    ```
-
+```ruby
+def output_line
+    raise 'Called abstract method: output_line'
+end
+```
 ### Implementation
 
 The implementation of a program such as this can be very complicated. However, the
@@ -56,7 +54,6 @@ the subclass to choose:
 
 #### UML Diagram
 ![Image of UML-diagram](../UML/tmeplate-method-uml.png)
-
 
 ### Drawbacks
 
