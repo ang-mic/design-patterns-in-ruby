@@ -1,6 +1,6 @@
 # Template Method Pattern
 
-## Use
+### Use
 
 Template Method pattern can be used to tackle the following problem: Imagine a
 complex piece of code - an algorithm or hairy system code - and somewhere in the
@@ -8,7 +8,7 @@ middle of this code there is a bit that needs to vary, sometimes this piece of
 code does one thing and sometimes it does another.
 
 
-## Scenario
+### Scenario
 
 Assuming a system that generates monthly reports in various formats, for example
 HTML and plain text. To achieve that, a good idea is to set the generic steps
@@ -36,7 +36,7 @@ raise an exception as body of a method:
     end
     ```
 
-## Implementation
+### Implementation
 
 The implementation of a program such as this can be very complicated. However, the
 point of this tutorial is to explain the theory that needs to be applied in
@@ -58,7 +58,7 @@ the subclass to choose:
 ![Image of UML-diagram](../UML/tmeplate-method-uml.png)
 
 
-## Drawbacks
+### Drawbacks
 
 The design is based on inheritance that produces two very important drawbacks:
 
